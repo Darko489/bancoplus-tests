@@ -1,0 +1,24 @@
+{
+  "name": "bancoplus-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright test --reporter=html && playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darko489/bancoplus-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darko489/bancoplus-tests/issues"
+  },
+  "homepage": "https://github.com/Darko489/bancoplus-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
